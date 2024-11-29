@@ -1,0 +1,116 @@
+/* css/index.css */
+
+/* Sección Héroe */
+.hero {
+    background: url('../assets/images/imag-hero.jpg') no-repeat center center/cover;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.hero .btn {
+    background: #d62828;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Noticias */
+.news {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.news h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.news-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.news-item {
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    width: 300px;
+    text-align: left;
+}
+
+.news-item img {
+    width: 100%;
+    height: auto;
+}
+
+.news-item h3 {
+    margin: 15px;
+    font-size: 1.5rem;
+    color: #d62828;
+}
+
+.news-item p {
+    margin: 15px;
+    color: #555;
+}
+
+.news-item .btn-secondary {
+    display: block;
+    margin: 15px;
+    text-align: center;
+    background: #0077b6;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Galería */
+.gallery-preview {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.gallery-preview h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.gallery-grid {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery-grid img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+/* Eliminar subrayado de los hipervínculos en el pie de página */
+footer a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+/* Estilo adicional para hover en enlaces del pie de página */
+footer a:hover {
+    color: #ffcccb; /* Cambiar color al pasar el mouse (opcional) */
+    text-decoration: underline; /* Opcional: subrayar al hover */
+}

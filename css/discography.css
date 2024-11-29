@@ -1,0 +1,98 @@
+/* css/discography.css */
+
+/* Fondo de la página con un toque vibrante */
+body {
+    background: linear-gradient(to right, #fffaf3, #ffd6a5); /* Fondo cálido y enérgico */
+    color: #333;
+}
+
+header {
+    background: #ff9f1c; /* Naranja vibrante */
+    color: white;
+}
+
+header .nav-links a {
+    color: white;
+}
+
+header .nav-links a.active {
+    border-bottom: 2px solid white;
+}
+
+/* Discografía */
+.discography {
+    padding: 20px;
+    text-align: center;
+}
+
+.discography h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #d62828; /* Rojo vibrante */
+}
+
+.discography p {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Álbumes */
+.albums {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.album {
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.album:hover {
+    transform: scale(1.05);
+}
+
+.album img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #d62828;
+}
+
+.album h3 {
+    margin: 10px 0;
+    font-size: 1.5rem;
+    color: #d62828;
+}
+
+.album p {
+    padding: 0 10px;
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #ff9f1c;
+    color: white;
+    margin-top: 20px;
+}
+
+footer .social-links a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+/* Elimina el subrayado solo de los enlaces que son álbumes */
+a.album {
+    text-decoration: none; /* Elimina el subrayado azul de los álbumes */
+}

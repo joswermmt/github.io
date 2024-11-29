@@ -1,0 +1,83 @@
+/* Fondo elegante */
+body {
+    background: linear-gradient(to right, #fffaf3, #fce1e1); /* Fondo cálido */
+    color: #333;
+}
+
+header {
+    background: #009e73; /* Verde vibrante */
+    color: white;
+}
+
+header .nav-links a.active {
+    border-bottom: 2px solid white;
+}
+
+/* Sección del tour */
+.tour {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.tour h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #009e73;
+}
+
+.tour p {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Fechas del tour */
+.tour-dates {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.tour-date {
+    background: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: left;
+    opacity: 0; /* Ocultar inicialmente */
+    transform: translateY(30px); /* Posición inicial fuera del foco */
+    transition: all 0.5s ease-in-out; /* Suavidad de la animación */
+}
+
+.tour-date h3 {
+    font-size: 1.8rem;
+    color: #009e73;
+}
+
+.tour-date p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* Estado visible después de la animación */
+.tour-date.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #009e73;
+    color: white;
+    margin-top: 20px;
+}
+
+footer .social-links a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}

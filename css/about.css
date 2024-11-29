@@ -1,0 +1,117 @@
+/* css/about.css */
+
+/* Fondo */
+body {
+    background: linear-gradient(to right, #fffaf3, #fce1e1); /* Fondo cálido */
+    color: #333;
+}
+
+header {
+    background: #e63946; /* Rojo vibrante */
+    color: white;
+}
+
+header .nav-links a.active {
+    border-bottom: 2px solid white;
+}
+
+/* Sección Biografía */
+.bio {
+    padding: 20px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-bottom: 40px;
+    text-align: justify;
+}
+
+/* Sección de estadísticas */
+.stats {
+    text-align: center;
+    padding: 20px;
+}
+
+.stats-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.stat-item {
+    background: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 150px;
+    text-align: center;
+}
+
+.stat-item h3 {
+    font-size: 2rem;
+    color: #e63946;
+}
+
+/* Sección de cronología */
+.timeline {
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.timeline-items {
+    border-left: 2px solid #e63946;
+    padding-left: 20px;
+}
+
+.timeline-item {
+    margin-bottom: 20px;
+}
+
+.timeline-item h3 {
+    font-size: 1.5rem;
+    color: #e63946;
+}
+
+/* Sección de testimonios */
+.testimonials {
+    padding: 20px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.testimonial-item {
+    margin-bottom: 20px;
+}
+
+.testimonial-item p {
+    font-style: italic;
+}
+
+.testimonial-item span {
+    display: block;
+    margin-top: 10px;
+    color: #555;
+    font-size: 0.9rem;
+    text-align: right;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #e63946;
+    color: white;
+}
+/* Eliminar subrayado de los hipervínculos en el pie de página */
+footer a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+/* Estilo adicional para hover en enlaces del pie de página */
+footer a:hover {
+    color: #ffcccb; /* Cambiar color al pasar el mouse (opcional) */
+    text-decoration: underline; /* Opcional: subrayar al hover */
+}
